@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ohm-find_by"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{find_by for Ohm}
+    gem.description = %Q{Little change to make find_by_{index} available in Ohm::Model}
     gem.email = "yo@brunoaguirre.com"
     gem.homepage = "http://github.com/elcuervo/ohm-find_by"
     gem.authors = ["Bruno Aguirre"]
