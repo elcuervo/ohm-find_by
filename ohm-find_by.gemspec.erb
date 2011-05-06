@@ -6,6 +6,10 @@ Gem::Specification.new do |s|
   s.authors           = ["elcuervo"]
   s.email             = ["yo@brunoaguirre.com"]
   s.homepage          = "http://github.com/elcuervo/ohm-find_by"
-  s.files = ["LICENSE", "README.md", "lib/ohm/find_by.rb"]
+  s.files = <%= Dir[
+    "LICENSE",
+    "README*",
+    "lib/**/*.rb"
+  ].inspect %>
   s.add_dependency("ohm")
 end
